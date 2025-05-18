@@ -7,10 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PatientDTO {
+public class ProductDTO {
     public int id;
     public String name;
-    public String address;
-    public String phone;
+    public int price;
+    public String description;
+    public int quantity;
 }
 

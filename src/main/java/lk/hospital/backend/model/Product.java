@@ -10,10 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Patient {
+public class Product {
     @Id
     private int id;
     private String name;
-    private String address;
-    private String phone;
+    private int price;
+    private String description;
+    private int quantity;
 }
